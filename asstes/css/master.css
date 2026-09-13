@@ -339,7 +339,7 @@ min{
     display: flex;
     justify-content: center;
     gap: 25px;
-    margin-top: 40px;
+    margin-top: 30px;
 
     >a{
         font-size: 30px;
