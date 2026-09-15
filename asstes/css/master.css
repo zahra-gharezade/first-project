@@ -130,7 +130,7 @@
                                        
                                         }
                                         &:hover{
-                                            background-color: #1a070396
+                                            background-color: #1a070396;
                                         }
                                          >a{
                                             height: 100%;
@@ -186,34 +186,71 @@
                 border-radius: 80px;
                 transition: 0.4s;
                 &:hover{
-                    background-color: #4d210d;
-                    color: #cfa57a;
+                    background-color: var(--favGold);
+                    color: var(--favcolor);
                 }
                
             }
            }
         }
+        &:nth-of-type(2){
+         justify-content: left;
+         
+         
+          >div {
+           
+    width: 50%;
+    min-height: 220px;
+    margin: 150px 0 0 0;
+    color: white;
+    /* border: 2px solid red; */
+    /* display: flex; */
+   
+    >h1{
+    /* border: 1px solid olive; */
+    font-size: 50px;
+    color: white;
+    font-weight: normal;
+    line-height: 70px;
+     >strong{
+    margin-left: 30px;
+    } 
+    }
+    
+    >p{
+        text-align: left;
+        /* border: 1px solid yellow; */
+       font-size: 18px;
+       margin-block: 12px ;
+       margin-left: 10px;
+       
+    }
+    >a{
+        font-size: 18px;
+        color: #cfa57a;
+        padding: 8px 15px;
+        background-color: #4d210d2d;
+        border: 1px solid #cfa57a;
+        display: inline;
+        width: auto;
+        height: auto;
+        border-radius: 20px;
+        transform: 1s;
+        &:hover{
+            color: #070200fd;
+            background-color: #cfa57a4f;
+            font-size: 18px;
+        }
+    }
+    
+        } 
+       
+
+        }
     }
 }
 
 
-.text1 {
-    width: 100%;
-    height: 500px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    padding-bottom: 80px;
-    font-size: 32px;
-    
-    >p{
-       font-size: 24px;
-    }
-    
-        }
            
                 
 min{
@@ -258,7 +295,7 @@ min{
         }
 
         >figcaption{
-            height: 70px;
+            height: 60px;
             width: 100%;
 
             background-color: rgba(0, 0, 0, 0.575);
@@ -308,27 +345,28 @@ min{
             display: flex;
             justify-content: center;
             
-            padding: 20px;
+            padding: 25px;
             >img{
-            width: 50%;
-            height: 50%;
-            left: 50px; right: 50px;
-            border-radius: 50%;
+                object-fit: cover;
+            width: 230px;
+            height: 230px;
+            left: 5px; right: 50px;
+            border-radius: 20px;
             &:hover{
-                width: 55%;
-                height: 55%;
+                width: 235px;
+                height: 235px;
             }
             }
             
                            
         }
          >.text{
-            font-size: 28px;
+            font-size: 26px;
         color: white;
-        padding-top:-150px ;
+        padding-top:-180px ;
         text-align: center;
         &:hover{
-          color: goldenrod;
+          color: var(--favGold);
           font-size: 30px;
           /* text-shadow: 10px 10px 5px; */
         }
@@ -347,7 +385,7 @@ min{
         transition: 0.4s;
 
         &:hover{
-            color: goldenrod;
+            color: var(--favGold);
             transform: translateY(-5px);
         }
     }
